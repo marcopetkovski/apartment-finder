@@ -6,19 +6,19 @@ import os
 MIN_PRICE = 1500
 
 # The maximum rent you want to pay per month.
-MAX_PRICE = 2000
+MAX_PRICE = 2500
 
 ## Location preferences
 
 # The Craigslist site you want to search on.
 # For instance, https://sfbay.craigslist.org is SF and the Bay Area.
 # You only need the beginning of the URL.
-CRAIGSLIST_SITE = 'sfbay'
+CRAIGSLIST_SITE = 'losangeles'
 
 # What Craigslist subdirectories to search on.
 # For instance, https://sfbay.craigslist.org/eby/ is the East Bay, and https://sfbay.craigslist.org/sfc/ is San Francisco.
 # You only need the last three letters of the URLs.
-AREAS = ["eby", "sfc", "sby", "nby"]
+AREAS = ["lac"]
 
 # A list of neighborhoods and coordinates that you want to look for apartments in.  Any listing that has coordinates
 # attached will be checked to see which area it is in.  If there's a match, it will be annotated with the area
@@ -75,7 +75,7 @@ BOXES = {
 # one of the boxes you defined, it will be checked to see if the neighborhood name it was listed under matches one
 # of these.  This is less accurate than the boxes, because it relies on the owner to set the right neighborhood,
 # but it also catches listings that don't have coordinates (many listings are missing this info).
-NEIGHBORHOODS = ["berkeley north", "berkeley", "rockridge", "adams point", "oakland lake merritt", "cow hollow", "piedmont", "pac hts", "pacific heights", "lower haight", "inner sunset", "outer sunset", "presidio", "palo alto", "richmond / seacliff", "haight ashbury", "alameda", "twin peaks", "noe valley", "bernal heights", "glen park", "sunset", "mission district", "potrero hill", "dogpatch"]
+NEIGHBORHOODS = ["mid city", "midcity", "mid-city"]
 
 ## Transit preferences
 
